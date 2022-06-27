@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo para wep.png">
+    <title>Contacto</title>
+</head>
+<body>
+<div class="contenedor-grid2">
+    <header class="header2">
+        <nav class="menu-navegacion contenedor">
+            <div class="logo">
+                <img src="../img/techno rep.png" alt="" width="150" height="150" >
+            </div>
+            <div class="enlaces">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="../nav/Ofertas.html">Ofertas</a></li>
+                <li><a href="./QuienesSomos.html">Quienes Somos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="contenedor-textos contenedor">
+                <h1>contacto directo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quibusdam iusto. Fugiat ducimus magni deleniti odit, eveniet voluptatem incidunt cupiditate soluta maiores harum dolores aperiam modi ullam! Odit, omnis hic.</p>
+            </div>
+        </section>
+    </header>
+        <main class="main2">
+            <section class="contenedor proyects">
+                <form action="envio.php" id="contacto">
+                    <fieldset>
+                        <legend class="titulo-seccion">info personal</legend>
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input type="text" id="nombre" placeholder="Lautaro caceres" required>
+                        <br>
+                        <label for="email">email:</label>
+                        <br>
+                        <input type="email" id="email" placeholder="@hotmail.com" required>
+                        <br>
+                        <label for="telefono">telefono:</label>
+                        <br>
+                        <input type="number" id="telefono" placeholder="123456789" required>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend class="titulo-seccion">info de venta</legend>
+                        <label for="reeles">Motorola</label>
+                        <input type="checkbox" id="Motorola" value="Motorola">
+                        <br>
+                        <label for="reeles">Samsung</label>
+                        <input type="checkbox" id="Samsung" value="Samsung">
+                        <br>
+                        <label for="reeles">Xiaomi</label>
+                        <input type="checkbox" id="Xiaomi" value="Xiaomi">
+                        <br>
+                        <label for="reeles">Apple</label>
+                        <input type="checkbox" id="Apple" value="Apple">
+                        <br>
+                        <label for="reeles">LG</label>
+                        <input type="checkbox" id="LG" value="LG">
+                        <br>
+                        <label for="nylon">Huawei</label>
+                        <input type="checkbox" id="Huawei" value="Huawei">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="titulo-seccion">info de envio</legend>
+                        <label for="local">retiro en el local</label>
+                        <input type="radio" id="local" value="local" name="envio"> 
+                        <br>
+                        <label for="casa">envio a mi domicilio</label>
+                        <input type="radio" id="casa" value="casa" name="envio">
+                        <br>
+                        <label for="localidad">provincia</label>
+                        <select name="" id="">localidad>
+                            <option value="Santa fe">ciudad de santa fe</option>
+                            <option value="Caba">ciudad de Bs As</option>
+                        </select>
+                    </fieldset>
+                    <label class="titulo-seccion" for="mensaje">deje su mensaje</label>
+                    <br>
+                    <textarea name="" id="mensaje"  cols="30"   rows="10"></textarea>
+                    <br>
+                    <input class="boton" type="submit" value="enviar">
+                    <input class="boton" type="reset" value="cancelar">
+                </form>   
+            </section>
+        </main>
+    <footer class="footer2">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Contacten por medio de nuestras redes</h2>
+        </div>
+        <div class="redes-sociales">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+        </div>
+        <div class="contenedor">
+            <p class="copy">© 2021 Lautaro Caceres / Todos los derechos reservados</p>
+        </div>
+    </footer>
+</div>
+    <script src="https://kit.fontawesome.com/44a2f46d93.js" crossorigin="anonymous"></script>
+</body>
+</html>
