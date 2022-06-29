@@ -44,8 +44,10 @@ body{
 
 .enlaces li{
     list-style: none;
-    display: inline-block;
+    display: inline-block;  
+    position: relative;
 }
+
 
 .enlaces a{
     text-decoration: none;
@@ -401,6 +403,10 @@ footer .copy{
     "pie pie pie";
 }
 
+.enlaces li{
+    margin: 0 20px;
+}
+
 .menu-navegacion{
     flex-direction: row;
     justify-content:space-between;
@@ -484,5 +490,26 @@ footer .copy{
     }
 }
 
+/*===================== transformaciones =====================*/
 
+.scale:hover{
+transform: scale(1.09);
+cursor: pointer;
+transition: 0.5s;
+}
+
+.enlaces li::before{
+    content:"";
+    height: 3px;
+    width: 0%;
+    background: #8c2574;
+    position: absolute;
+    left: 0%;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.enlaces li:hover::before{
+    width: 100%;
+}
 
