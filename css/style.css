@@ -24,35 +24,14 @@ body{
     padding: var(--paddingsecciones);
 }
 
-/* Menu */
-.menu-navegacion{
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* navbar */
+
+.bg-white{
+    background-color: #f2f2f2;
 }
 
-.logo{
-    height: 50px;
-}
-
-.logo img{
-    display: block;
-    height: 100%;
-}
-
-.enlaces li{
-    list-style: none;
-    display: inline-block;  
-    position: relative;
-}
-
-
-.enlaces a{
-    text-decoration: none;
-    color: black;
-    padding-left: 10px;
+#botonera img{
+    width: 180px;
 }
 
 /* hero */
@@ -498,18 +477,7 @@ cursor: pointer;
 transition: 0.5s;
 }
 
-.enlaces li::before{
-    content:"";
-    height: 3px;
-    width: 0%;
-    background: #8c2574;
-    position: absolute;
-    left: 0%;
-    bottom: -12px;
-    transition: 0.4s ease-out;
-}
-
-.enlaces li:hover::before{
+.enlaces li :hover{
     width: 100%;
+    background: rgba(248, 6, 192, 0.5);
 }
-
