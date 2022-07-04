@@ -24,6 +24,9 @@ body{
     padding: var(--paddingsecciones);
 }
 
+.center{
+    text-align: center;
+}
 /* navbar */
 
 .bg-white{
@@ -364,7 +367,7 @@ footer .copy{
     "pie pie";
 }
 .video{
-    width: 800px;
+    width: 100%;
     height: 1200px;
 }
 }
@@ -397,6 +400,10 @@ footer .copy{
     }
 }
 
+article img{
+    width: 100%;
+    height: 50%;
+}
 
 /*===================== Grid De Index/Contacto/Quienes somos =====================*/
 
@@ -479,5 +486,9 @@ transition: 0.5s;
 
 .enlaces li :hover{
     width: 100%;
-    background: rgba(248, 6, 192, 0.5);
+    background: rgb(140, 37, 116, .5);
+    border-radius: 25%;
+    
 }
+
+
