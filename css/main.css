@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
 #botonera img {
   width: 180px; }
 
@@ -119,11 +124,6 @@
   box-shadow: 0 0 8px black;
   margin-bottom: 40px; }
 
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box; }
-
 .hero2 {
   height: 500px;
   background-image: url(../img/veremosquesale.jpg);
@@ -131,16 +131,14 @@
   background-size: cover;
   background-attachment: fixed;
   text-align: center; }
-
-.hero2 h1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 30px; }
-
-.hero2 p {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 40px; }
+  .hero2 .hero2 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  .hero2 .hero2 p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px; }
 
 .video {
   width: 100%;
