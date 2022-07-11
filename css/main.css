@@ -68,45 +68,42 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
-
-.beneficio {
-  font-size: 20px;
-  width: 10em;
-  height: 10em;
-  background-image: url(../img/motorola.png);
-  background-size: cover;
-  background-position: center;
-  color: #8c257e;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%; }
-
-.beneficio2 {
-  font-size: 20px;
-  width: 10em;
-  height: 10em;
-  background-image: url(../img/motorola.png);
-  background-size: cover;
-  background-position: center;
-  color: #8c257e;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%; }
-
-.beneficio3 {
-  font-size: 20px;
-  width: 10em;
-  height: 10em;
-  background-image: url(../img/motorola.png);
-  background-size: cover;
-  background-position: center;
-  color: #790766;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%; }
+  .beneficios .beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+  .beneficios .beneficio2 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+  .beneficios .beneficio3 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #790766;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
 
 .proyects {
   background: #f2f2f2; }
