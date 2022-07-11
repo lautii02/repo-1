@@ -1,0 +1,156 @@
+/*===================== Grid De Productos =====================*/
+
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "b"
+    "main"
+    "video"
+    "pie"
+}
+
+.header{
+    grid-area: header;
+}
+
+.b{
+    grid-area: b;
+}
+
+.main{
+    grid-area: main;
+}
+
+.video{
+    grid-area: video;
+}
+
+.footer{
+    grid-area: pie;
+}
+
+
+/*===================== Media queries productos =====================*/
+
+@media (min-width: 768px){
+.contenedor-grid{
+    grid-template-columns: 30vw 70vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "b main"
+    "video video"
+    "pie pie";
+}
+.video{
+    width: 100%;
+    height: 1200px;
+}
+}
+
+
+
+@media (min-width: 1024px){
+.contenedor-grid{
+    grid-template-columns: 15vw 55vw 30vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "b main video"
+    "b main video"
+    "pie pie pie";
+}
+
+.enlaces li{
+    margin: 0 20px;
+}
+
+.menu-navegacion{
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.video{
+        width: 100%;
+        height: 1216px;
+    }
+}
+
+article img{
+    width: 100%;
+    height: 50%;
+}
+
+/*===================== Grid De Index/Contacto/Quienes somos =====================*/
+
+.contenedor-grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+}
+
+.header2{
+    grid-area: header;
+}
+
+.main2{
+    grid-area: main;
+}
+
+.footer2{
+    grid-area: footer;
+}
+
+/*===================== Media queries Index/Contacto/Quienes somos =====================*/
+
+@media (min-width: 1024px){
+    .menu-navegacion{
+        flex-direction: row;
+        justify-content:space-between;
+    }
+}
+
+/*===================== Grid De Ofertas =====================*/
+
+.contenedor-grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "footer"
+}
+
+.header3{
+    grid-area: header;
+}
+
+.main3{
+    grid-area: main;
+}
+
+.aside3{
+    grid-area: aside;
+}
+
+.footer3{
+    grid-area: footer;
+}
+
+/*===================== Media queries Ofertas =====================*/
+
+@media (min-width: 1024px){
+    .menu-navegacion{
+        flex-direction: row;
+        justify-content:space-between;
+    }
+}

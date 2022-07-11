@@ -1,0 +1,12 @@
+/*===================== transformaciones =====================*/
+
+.scale:hover{
+transform: scale(1.09);
+cursor: pointer;
+transition: 0.5s;
+}
+
+.enlaces li :hover{
+    width: 100%;
+    border-radius: 25%;
+}

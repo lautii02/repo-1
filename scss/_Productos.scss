@@ -1,0 +1,42 @@
+.hero2{
+    height: 500px;;
+    background-image: url(../img/veremosquesale.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.hero2 h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero2 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.figure{
+    display: flex;
+}
+
+.contenedor-textos2{
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#777777;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,134 @@
+//hero
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+}
+
+.center{
+    text-align: center;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(../img/fondosi.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contenedor-textos{
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.hero h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #8c2574;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    color:#8c2574;
+}
+
+.copy{
+    text-align: center;
+    color: #777777;
+    margin: 20px 0;
+}
+
+.beneficios{
+    padding-top:40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.beneficio{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.beneficio2{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.beneficio3{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #790766;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+//proyects
+
+.proyects{
+    background: #f2f2f2;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor-imagenes img{
+    display: block;
+    width: 30%;
+    box-shadow: 0 0 8px rgb(0, 0, .4);
+    margin-bottom: 40px;
+}
