@@ -1,150 +1,189 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-:root{
-    --colortitulos: #8c2574;
-    --colortextos: #777777;
-    --colorbotones: #8c2574;
-    --colorfondo: #a381f2;
-    --paddingsecciones: 60px 0;
-    --marginelementos: 40px
-}
+.boton {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #8c2574;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 20px; }
+  .boton:hover {
+    background-color: #661a56;
+    color: black; }
 
-body{
-    font-family: 'Lato', sans-serif;
-}
-.contenedor{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: var(--paddingsecciones);
-}
+#botonera img {
+  width: 180px; }
 
-.center{
-    text-align: center;
-}
-/* navbar */
+.bg-white {
+  background-color: #f2f2f2; }
 
-.bg-white{
-    background-color: #f2f2f2;
-}
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0; }
 
-#botonera img{
-    width: 180px;
-}
+.center {
+  text-align: center; }
 
-/* hero */
+.hero {
+  height: 500px;
+  background-image: url(../img/fondosi.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
 
-.hero{
-    height: 500px;
-    background-image: url(../img/fondosi.png);
-    background-position: center;
+.contenedor-textos {
+  padding: 0%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue; }
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.hero p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px; }
+
+.titulo-seccion {
+  text-align: center;
+  font-size: 35px;
+  color: #8c2574; }
+
+.copy {
+  text-align: center;
+  color: #777777;
+  margin: 20px 0; }
+
+.beneficios {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .beneficios .beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
     background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-}
-
-.contenedor-textos{
-    padding: 0%;
-    height: 100%;
+    background-position: center;
+    color: #8c257e;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
-}
+    border-radius: 50%; }
+  .beneficios .beneficio2 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+  .beneficios .beneficio3 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/motorola.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
 
-.hero h1{
+.proyects {
+  background: #f2f2f2; }
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.contenedor-imagenes img {
+  display: block;
+  width: 30%;
+  box-shadow: 0 0 8px black;
+  margin-bottom: 40px; }
+
+.hero2 {
+  height: 500px;
+  background-image: url(../img/veremosquesale.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .hero2 .hero2 h1 {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.hero p{
+    margin-bottom: 30px; }
+  .hero2 .hero2 p {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; }
 
-.boton{
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    background-color: #8c2574;
-    color: aliceblue;
-    text-decoration: none;
-    border-radius: 20px;
-}
+.video {
+  width: 100%;
+  height: 100%; }
 
-/* Main */
+.figure {
+  display: flex; }
 
-.titulo-seccion{
-    text-align: center;
-    font-size: 35px;
-    color: var(--colortitulos);
-}
+.contenedor-textos2 {
+  padding: 0%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #777777;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 20px; }
 
-.copy{
-    text-align: center;
-    color: var(--colortextos);
-    margin: 20px 0;
-}
+.hero3 {
+  height: 500px;
+  background-image: url(../img/fondo-para-prod.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .hero3 .hero3 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+    .hero3 .hero3 h1 .hero3 p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px; }
 
-.beneficios{
-    padding-top: var(--marginelementos);
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.beneficio{
-    font-size: 20px;
-    width: 10em;
-    height: 10em;
-    background-image: url(../img/motorola.png);
-    background-size: cover;
-    background-position: center;
-    color: #8c257e;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.beneficio2{
-    font-size: 20px;
-    width: 10em;
-    height: 10em;
-    background-image: url(../img/motorola.png);
-    background-size: cover;
-    background-position: center;
-    color: #8c257e;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.beneficio3{
-    font-size: 20px;
-    width: 10em;
-    height: 10em;
-    background-image: url(../img/motorola.png);
-    background-size: cover;
-    background-position: center;
-    color: #790766;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.beneficio4{
+.beneficios {
+  padding-top: var(--marginelementos);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .beneficios .beneficio4 {
     font-size: 20px;
     width: 10em;
     height: 10em;
@@ -155,10 +194,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-}
-
-.beneficio5{
+    border-radius: 50%; }
+  .beneficios .beneficio5 {
     font-size: 20px;
     width: 10em;
     height: 10em;
@@ -169,10 +206,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-}
-
-.beneficio6{
+    border-radius: 50%; }
+  .beneficios .beneficio6 {
     font-size: 20px;
     width: 10em;
     height: 10em;
@@ -183,312 +218,140 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-}
+    border-radius: 50%; }
 
-/* muestra */
-
-.proyects{
-    background: #f2f2f2;
-}
-
-.contenedor-imagenes{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.contenedor-imagenes img{
-    display: block;
-    width: 30%;
-    box-shadow: 0 0 8px rgb(0, 0, .4);
-    margin-bottom: var(--marginelementos);
-}
-
-
-
-/* Footer */
-
-footer .titulo-seccion{
-    color: var(--colortitulos);
-}
-footer .copy{
-    color: black;
-}
-
-.redes-sociales{
-    display: flex;
-    justify-content: center;
-}
-
-.redes-sociales i{
-    font-size: 30px;
-    padding: 0 20px 0 20px;
-}
-
-/* Productos */
-
-.hero2{
-    height: 500px;;
-    background-image: url(../img/veremosquesale.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-}
-
-.hero2 h1{
+.hero4 {
+  height: 500px;
+  background-image: url(../img/fondoparaprobar2.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .hero4 .hero4 h1 {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 30px;
-}
+    margin-bottom: 30px; }
+    .hero4 .hero4 h1 .hero4 p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px; }
 
-.hero2 p{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
+footer .titulo-seccion {
+  color: #8c2574; }
 
-.video{
-    width: 100%;
-    height: 100%;
-}
+footer .copy {
+  color: black; }
 
-.figure{
-    display: flex;
-}
+.redes-sociales {
+  display: flex;
+  justify-content: center; }
 
-.contenedor-textos2{
-    padding: 0%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--colortextos);
-    margin-top: 70px;
-    margin-left: 50px;
-    margin-right: 20px;
-}
-
-
-
-/* Ofertas */
-
-.hero3{
-    height: 500px;
-    background-image: url(../img/fondo-para-prod.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-}
-
-.hero3 h1{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.hero3 p{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-
-/* Quienes Somos */
-
-.hero4{
-    height: 500px;
-    background-image: url(../img/fondoparaprobar2.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-}
-
-.hero4 h1{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.hero4 p{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
+.redes-sociales i {
+  font-size: 30px;
+  padding: 0 20px 0 20px; }
 
 /*===================== Grid De Productos =====================*/
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "b" "main" "video" "pie"; }
 
-.contenedor-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "b"
-    "main"
-    "video"
-    "pie"
-}
+.header {
+  grid-area: header; }
 
-.header{
-    grid-area: header;
-}
+.b {
+  grid-area: b; }
 
-.b{
-    grid-area: b;
-}
+.main {
+  grid-area: main; }
 
-.main{
-    grid-area: main;
-}
+.video {
+  grid-area: video; }
 
-.video{
-    grid-area: video;
-}
-
-.footer{
-    grid-area: pie;
-}
-
+.footer {
+  grid-area: pie; }
 
 /*===================== Media queries productos =====================*/
-
-@media (min-width: 768px){
-.contenedor-grid{
+@media (min-width: 768px) {
+  .contenedor-grid {
     grid-template-columns: 30vw 70vw;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "header header"
-    "b main"
-    "video video"
-    "pie pie";
-}
-.video{
+    grid-template-areas: "header header" "b main" "video video" "pie pie"; }
+  .video {
     width: 100%;
-    height: 1200px;
-}
-}
+    height: 1200px; } }
 
-
-
-@media (min-width: 1024px){
-.contenedor-grid{
+@media (min-width: 1024px) {
+  .contenedor-grid {
     grid-template-columns: 15vw 55vw 30vw;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "header header header"
-    "b main video"
-    "b main video"
-    "pie pie pie";
-}
-
-.enlaces li{
-    margin: 0 20px;
-}
-
-.menu-navegacion{
+    grid-template-areas: "header header header" "b main video" "b main video" "pie pie pie"; }
+  .enlaces li {
+    margin: 0 20px; }
+  .menu-navegacion {
     flex-direction: row;
-    justify-content:space-between;
-}
-
-.video{
-        width: 100%;
-        height: 1216px;
-    }
-}
-
-article img{
+    justify-content: space-between; }
+  .video {
     width: 100%;
-    height: 50%;
-}
+    height: 1216px; } }
+
+article img {
+  width: 100%;
+  height: 50%; }
 
 /*===================== Grid De Index/Contacto/Quienes somos =====================*/
+.contenedor-grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "main" "footer"; }
 
-.contenedor-grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-}
+.header2 {
+  grid-area: header; }
 
-.header2{
-    grid-area: header;
-}
+.main2 {
+  grid-area: main; }
 
-.main2{
-    grid-area: main;
-}
-
-.footer2{
-    grid-area: footer;
-}
+.footer2 {
+  grid-area: footer; }
 
 /*===================== Media queries Index/Contacto/Quienes somos =====================*/
-
-@media (min-width: 1024px){
-    .menu-navegacion{
-        flex-direction: row;
-        justify-content:space-between;
-    }
-}
+@media (min-width: 1024px) {
+  .menu-navegacion {
+    flex-direction: row;
+    justify-content: space-between; } }
 
 /*===================== Grid De Ofertas =====================*/
+.contenedor-grid3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "main" "aside" "footer"; }
 
-.contenedor-grid3{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "main"
-    "aside"
-    "footer"
-}
+.header3 {
+  grid-area: header; }
 
-.header3{
-    grid-area: header;
-}
+.main3 {
+  grid-area: main; }
 
-.main3{
-    grid-area: main;
-}
+.aside3 {
+  grid-area: aside; }
 
-.aside3{
-    grid-area: aside;
-}
-
-.footer3{
-    grid-area: footer;
-}
+.footer3 {
+  grid-area: footer; }
 
 /*===================== Media queries Ofertas =====================*/
-
-@media (min-width: 1024px){
-    .menu-navegacion{
-        flex-direction: row;
-        justify-content:space-between;
-    }
-}
+@media (min-width: 1024px) {
+  .menu-navegacion {
+    flex-direction: row;
+    justify-content: space-between; } }
 
 /*===================== transformaciones =====================*/
-
-.scale:hover{
-transform: scale(1.09);
-cursor: pointer;
-transition: 0.5s;
-}
-
-.enlaces li :hover{
+.scale:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+  transition: 0.5s; }
+  .scale:hover .enlaces li :hover {
     width: 100%;
-    background: rgb(140, 37, 116, .5);
-    border-radius: 25%;
-    
-}
-
-
+    border-radius: 25%; }
