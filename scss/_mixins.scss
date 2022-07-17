@@ -1,0 +1,30 @@
+//extends
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: $paddingboton;
+    background-color: $colorbotones;
+    color: $colorletraboton;
+    text-decoration: none;
+    border-radius: 20px;
+    &:hover{
+        background-color: $colorhover;
+        color: $color3;
+    }
+}
+
+//mixins
+@mixin circulo($font-size, $width, $height, $background-image, $background-position, $color){
+    font-size:$font-size;
+    width: $width;
+    height: $height;
+    background-image:$background-image;
+    background-size: cover;
+    background-position: $background-position;
+    color: $color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

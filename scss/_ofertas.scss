@@ -12,7 +12,23 @@
         .hero3 p{
             font-size: 20px;
             font-weight: 400;
-            margin-bottom: 40px;
+            margin-bottom: $marginelementos;
         }
+    }
+}
+
+.beneficios{
+    padding-top: var(--marginelementos);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .beneficio4{
+        @include circulo(20px, 10em, 10em, url(../img/claro.png), center, #8c257e);
+    }
+    .beneficio5{
+        @include circulo(20px, 10em, 10em, url(../img/movistar.png), center, #8c257e);
+    }
+    .beneficio6{
+        @include circulo(20px, 10em, 10em, url(../img/personal.png), center, #8c257e);
     }
 }

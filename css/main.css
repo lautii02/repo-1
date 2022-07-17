@@ -5,6 +5,19 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.boton {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #8c2574;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 20px; }
+  .boton:hover {
+    background-color: #661a56;
+    color: black; }
+
 #botonera img {
   width: 180px; }
 
@@ -47,16 +60,6 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 40px; }
-
-.boton {
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-  padding: 15px 0;
-  background-color: #8c2574;
-  color: aliceblue;
-  text-decoration: none;
-  border-radius: 20px; }
 
 .titulo-seccion {
   text-align: center;
@@ -104,7 +107,7 @@
     background-image: url(../img/motorola.png);
     background-size: cover;
     background-position: center;
-    color: #790766;
+    color: #8c257e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,6 +178,48 @@
       font-weight: 400;
       margin-bottom: 40px; }
 
+.beneficios {
+  padding-top: var(--marginelementos);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .beneficios .beneficio4 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/claro.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+  .beneficios .beneficio5 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/movistar.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+  .beneficios .beneficio6 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/personal.png);
+    background-size: cover;
+    background-position: center;
+    color: #8c257e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; }
+
 .hero4 {
   height: 500px;
   background-image: url(../img/fondoparaprobar2.png);
@@ -210,7 +255,7 @@ footer .copy {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "header" "b" "main" "video" "pie"; }
+  grid-template-areas: "header" "b" "main" "video" "pie"; }
 
 .header {
   grid-area: header; }
@@ -232,7 +277,7 @@ footer .copy {
   .contenedor-grid {
     grid-template-columns: 30vw 70vw;
     grid-template-rows: auto;
-    grid-template-areas: "header header" "b main" "video video" "pie pie"; }
+    grid-template-areas: "header header" "b main" "video video" "pie pie"; }
   .video {
     width: 100%;
     height: 1200px; } }
@@ -241,7 +286,7 @@ footer .copy {
   .contenedor-grid {
     grid-template-columns: 15vw 55vw 30vw;
     grid-template-rows: auto;
-    grid-template-areas: "header header header" "b main video" "b main video" "pie pie pie"; }
+    grid-template-areas: "header header header" "b main video" "b main video" "pie pie pie"; }
   .enlaces li {
     margin: 0 20px; }
   .menu-navegacion {
@@ -260,7 +305,7 @@ article img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 .header2 {
   grid-area: header; }
@@ -282,7 +327,7 @@ article img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "header" "main" "aside" "footer"; }
+  grid-template-areas: "header" "main" "aside" "footer"; }
 
 .header3 {
   grid-area: header; }

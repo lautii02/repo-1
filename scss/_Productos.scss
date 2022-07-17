@@ -1,5 +1,5 @@
 .hero2{
-    height: 500px;;
+    height: 500px;
     background-image: url(../img/veremosquesale.jpg);
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@
     .hero2 p{
         font-size: 20px;
         font-weight: 400;
-        margin-bottom: 40px;
+        margin-bottom: $marginelementos;
     }
 }
 
@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#777777;
+    color:$colortextos;
     margin-top: 70px;
     margin-left: 50px;
     margin-right: 20px;

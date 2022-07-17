@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
+    color: $colorletraboton;
 }
 
 .hero h1{
@@ -42,26 +42,15 @@
     margin-bottom: 40px;
 }
 
-.boton{
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    background-color: #8c2574;
-    color: aliceblue;
-    text-decoration: none;
-    border-radius: 20px;
-}
-
 .titulo-seccion{
     text-align: center;
     font-size: 35px;
-    color:#8c2574;
+    color:$colorbotones;
 }
 
 .copy{
     text-align: center;
-    color: #777777;
+    color:$colortextos;
     margin: 20px 0;
 }
 
@@ -71,51 +60,20 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
         .beneficio{
-            font-size: 20px;
-            width: 10em;
-            height: 10em;
-            background-image: url(../img/motorola.png);
-            background-size: cover;
-            background-position: center;
-            color: #8c257e;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
+            @include circulo(20px, 10em, 10em, url(../img/motorola.png), center, #8c257e);
         }
         .beneficio2{
-            font-size: 20px;
-            width: 10em;
-            height: 10em;
-            background-image: url(../img/motorola.png);
-            background-size: cover;
-            background-position: center;
-            color: #8c257e;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
+            @include circulo(20px, 10em, 10em, url(../img/motorola.png), center, #8c257e);
         }
         .beneficio3{
-            font-size: 20px;
-            width: 10em;
-            height: 10em;
-            background-image: url(../img/motorola.png);
-            background-size: cover;
-            background-position: center;
-            color: #790766;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
+            @include circulo(20px, 10em, 10em, url(../img/motorola.png), center, #8c257e);
         }
-        
 }
 
 //proyects
 
 .proyects{
-    background: #f2f2f2;
+    background: $color1
 }
 
 .contenedor-imagenes{
@@ -127,6 +85,6 @@
 .contenedor-imagenes img{
     display: block;
     width: 30%;
-    box-shadow: 0 0 8px rgb(0, 0, .4);
-    margin-bottom: 40px;
+    box-shadow: 0 0 8px $color2;
+    margin-bottom: $marginelementos;
 }
