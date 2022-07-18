@@ -2,5 +2,5 @@
     width: 180px;
 }
 .bg-white{
-    background-color:$color1;
+    background-color: map-get($map:$paleta, $key:'siete' )
 }

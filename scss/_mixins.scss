@@ -72,3 +72,32 @@ margin-bottom: 30px;
     margin-left: 50px;
     margin-right: 20px;
 }
+
+//maps
+$paleta:(
+    'uno':#8c2574,
+    'dos': #777777,
+    'tres': #8c2574,
+    'cuatro': #661a56,
+    'cinco': #a381f2,
+    'seis': aliceblue,
+    'siete': #f2f2f2,
+    'ocho': rgb(0, 0, .4),
+    'nueve': black,
+);
+
+//condicionales
+
+@mixin alineacion($align) {
+    @if $align == center{ text-align:center}
+    @if $align == left{ text-align: left}
+    @if $align == right{ text-align: right};
+    }
+
+//blucles
+
+@for $i from 1 through 6{
+    .text-#{$i}{
+        font-size: .25em *$i;
+    }
+}

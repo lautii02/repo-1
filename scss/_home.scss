@@ -8,7 +8,7 @@
 }
 
 .center{
-    text-align: center;
+    @include alineacion(center);
 }
 
 .hero{
@@ -26,14 +26,14 @@
 }
 
 .titulo-seccion{
-    text-align: center;
+    @include alineacion(center);
     font-size: 35px;
-    color:$colorbotones;
+    color:map-get($map:$paleta, $key:'tres' );
 }
 
 .copy{
-    text-align: center;
-    color:$colortextos;
+    @include alineacion(center);
+    color: map-get($map: $paleta, $key:'dos' );
     margin: 20px 0;
 }
 
@@ -56,7 +56,7 @@
 //proyects
 
 .proyects{
-    background: $color1
+    background: map-get($map: $paleta, $key:'siete' )
 }
 
 .contenedor-imagenes{
@@ -68,6 +68,7 @@
 .contenedor-imagenes img{
     display: block;
     width: 30%;
-    box-shadow: 0 0 8px $color2;
+    box-shadow: 0 0 8px;
+    background-color: map-get($map:$paleta, $key:'ocho' );
     margin-bottom: $marginelementos;
 }

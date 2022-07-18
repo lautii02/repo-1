@@ -18,6 +18,24 @@
     background-color: #661a56;
     color: black; }
 
+.text-1 {
+  font-size: 0.25em; }
+
+.text-2 {
+  font-size: 0.5em; }
+
+.text-3 {
+  font-size: 0.75em; }
+
+.text-4 {
+  font-size: 1em; }
+
+.text-5 {
+  font-size: 1.25em; }
+
+.text-6 {
+  font-size: 1.5em; }
+
 #botonera img {
   width: 180px; }
 
@@ -122,7 +140,8 @@
 .contenedor-imagenes img {
   display: block;
   width: 30%;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px;
+  background-color: black;
   margin-bottom: 40px; }
 
 .hero2 {
