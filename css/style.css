@@ -41,6 +41,14 @@
   background-size: cover;
   background-attachment: fixed;
   text-align: center; }
+  .hero .hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+    .hero .hero h1 .hero p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px; }
 
 .contenedor-textos {
   padding: 0%;
@@ -50,16 +58,6 @@
   align-items: center;
   justify-content: center;
   color: aliceblue; }
-
-.hero h1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 30px; }
-
-.hero p {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 40px; }
 
 .titulo-seccion {
   text-align: center;
@@ -138,10 +136,10 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px; }
-  .hero2 .hero2 p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px; }
+    .hero2 .hero2 h1 .hero2 p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px; }
 
 .video {
   width: 100%;
@@ -179,7 +177,7 @@
       margin-bottom: 40px; }
 
 .beneficios {
-  padding-top: var(--marginelementos);
+  padding-top: 40px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }

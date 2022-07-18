@@ -1,19 +1,10 @@
 .hero2{
-    height: 500px;
-    background-image: url(../img/veremosquesale.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+    @include hero(url(../img/veremosquesale.jpg));
     .hero2 h1{
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 30px;
-    }
-    .hero2 p{
-        font-size: 20px;
-        font-weight: 400;
-        margin-bottom: $marginelementos;
+        @include heroh1(700);
+        .hero2 p{
+            @include herop(400);
+        }
     }
 }
 
@@ -27,14 +18,5 @@
 }
 
 .contenedor-textos2{
-    padding: 0%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color:$colortextos;
-    margin-top: 70px;
-    margin-left: 50px;
-    margin-right: 20px;
+    @include contenedor-texto2($colortextos)
 }

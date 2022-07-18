@@ -28,3 +28,47 @@
     justify-content: center;
     border-radius: 50%;
 }
+
+@mixin hero($background-image){
+    height: 500px;
+    background-image: $background-image;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+@mixin heroh1($font-weight){
+font-size: 36px;
+font-weight:$font-weight;
+margin-bottom: 30px;
+}
+
+@mixin herop($font-weight) {
+    font-size: 20px;
+    font-weight:$font-weight;
+    margin-bottom: 40px;
+}
+
+@mixin contenedor-texto(){
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $colorletraboton;
+}
+
+@mixin contenedor-texto2($color){
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:$color;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 20px;
+}

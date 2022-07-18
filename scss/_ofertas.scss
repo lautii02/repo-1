@@ -1,24 +1,14 @@
 .hero3{
-    height: 500px;
-    background-image: url(../img/fondo-para-prod.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+    @include hero(url(../img/fondo-para-prod.png));
     .hero3 h1{
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 30px;
+        @include heroh1(700);
         .hero3 p{
-            font-size: 20px;
-            font-weight: 400;
-            margin-bottom: $marginelementos;
+            @include herop(400);
         }
     }
 }
-
 .beneficios{
-    padding-top: var(--marginelementos);
+    padding-top:$marginelementos;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

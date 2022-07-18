@@ -1,18 +1,9 @@
 .hero4{
-    height: 500px;
-    background-image: url(../img/fondoparaprobar2.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+    @include hero(url(../img/fondoparaprobar2.png));
     .hero4 h1{
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 30px;
+        @include heroh1(700);
         .hero4 p{
-            font-size: 20px;
-            font-weight: 400;
-            margin-bottom: 40px;
+            @include herop(400);
         }
     }
 }
