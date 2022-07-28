@@ -9,9 +9,11 @@ footer .copy{
 .redes-sociales{
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
-.redes-sociales i{
+.redes-sociales li a i{
     font-size: 30px;
     padding: 0 20px 0 20px;
+    color: black;
 }

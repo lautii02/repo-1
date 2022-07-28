@@ -20,3 +20,21 @@
 .contenedor-textos2{
     @include contenedor-texto2($colortextos)
 }
+
+.botonventas{
+        width: 70px;
+        display: flex;
+        margin: 0 auto;
+        padding: 5px 0;
+        background-color: #8c2574;
+        color: aliceblue;
+        border-radius: 25px;
+        text-decoration: none;}
+        .botonventas:hover {
+            background-color: #661a56;
+            color: black;}
+
+.box {
+border: 2px outset #7777;
+min-height: auto;
+width: auto;}

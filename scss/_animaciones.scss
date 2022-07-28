@@ -1,7 +1,9 @@
 /*===================== transformaciones =====================*/
 
 .scale:hover{
-transform: scale(1.09);
+    color: $colortitulos !important;
+    font-weight: 700;
+    transform: scale(1.09);
 cursor: pointer;
 transition: 0.5s;
     .enlaces li :hover{
